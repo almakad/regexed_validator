@@ -18,4 +18,5 @@ main() {
       '<hr />')); // true
   print(validator.password('sword#42Fish')); // true
   print(validator.creditCard('4000-1234-1234-1234')); // true
+  print(validator.date('01/02/1991')); //true
 }
